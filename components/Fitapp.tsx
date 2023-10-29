@@ -1,6 +1,6 @@
 'use client'
 import { Flex, Heading, Text, Button } from "@chakra-ui/react"
-import styles from './FitApp.module.css'
+import styles from './Fitapp.module.css'
 
 import Link from 'next/link'
 
