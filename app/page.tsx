@@ -1,9 +1,9 @@
 'use client'
 import Navbar from "@components/Navbar"
-import FitApp from "@components/FitApp"
+import FitApp from "@components/Fitapp"
 import Searchbar from "@components/Searchbar"
 import ExercisesList from "@components/ExercisesList"
-
+//
 import { fetchExercises } from "@utils"
 import { HomeProps } from "@types"
 
