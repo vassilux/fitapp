@@ -17,8 +17,9 @@ const FitApp = () => {
             pl='2rem'
             width='70%'
         >
-            <Heading as='h1' size='xl' noOfLines={1}>
-                Fit Your Body
+            <Heading as='h4' size='xl' noOfLines={1}>
+                Fit Your Body 
+                <br>Thierry Gerald est les autres </br>
             </Heading>
             <Text mt='1rem'>Reach your fitness goals with our premium exercise library.</Text>
             <Link href="#searchBar">
