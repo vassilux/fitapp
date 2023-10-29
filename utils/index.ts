@@ -4,7 +4,7 @@ export async function fetchExercises(filters: FilterProps) {
     let { muscle, difficulty } = filters 
 
     const headers: HeadersInit = {
-        'X-RapidAPI-Key': '442eeec4bamshf2dad67f709b582p19b762jsn84374ac914fe',
+        'X-RapidAPI-Key': '',
 		'X-RapidAPI-Host': 'exercises-by-api-ninjas.p.rapidapi.com'
     }
 
