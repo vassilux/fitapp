@@ -17,16 +17,18 @@ const FitApp = () => {
             pl='2rem'
             width='70%'
         >
-            <Heading as='h4' size='xl' noOfLines={1}>
-                Fit Your Body 
-                <br>Thierry Gerald est les autres </br>
+            <Heading as='h3' size='l' noOfLines={1}>
+                Fit your body
+            </Heading>
+            <Heading as='h5' size='m' noOfLines={1}>
+                Thierry and Gerald
             </Heading>
             <Text mt='1rem'>Reach your fitness goals with our premium exercise library.</Text>
             <Link href="#searchBar">
                 <Button mt="1rem" colorScheme="messenger">Search exercises</Button>
             </Link>
         </Flex>
-        <div className={styles.FitAppImage}></div>
+        <div className={styles.heroImage}></div>
     </Flex>
   )
 }
